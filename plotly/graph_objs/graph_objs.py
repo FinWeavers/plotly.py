@@ -1213,8 +1213,8 @@ class Figure(PlotlyDict):
                                 .format(r=row, c=col))
             trace['xaxis'] = ref[0]
             trace['yaxis'] = ref[1]
-        self['data'] += [trace]
-
+        #self['data'] += [trace]
+        self['data'].append(trace)
 
 class Font(PlotlyDict):
     """
