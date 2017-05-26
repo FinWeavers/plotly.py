@@ -140,7 +140,7 @@ def init_notebook_mode(connected=False):
             '</script>'
             '').format(script=get_plotlyjs())
 
-    ipython_display.display(ipython_display.HTML(script_inject))
+    # ipython_display.display(ipython_display.HTML(script_inject))
     __PLOTLY_OFFLINE_INITIALIZED = True
 
 
